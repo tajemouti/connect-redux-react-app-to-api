@@ -1,3 +1,28 @@
-.App {
-  text-align: center;
+.user-list {
+  list-style: none;
+}
+
+.user-list li {
+  display: flex;
+  padding: 2%;
+  margin: 1%;
+  gap: 2em;
+  border: 2px solid gray;
+}
+
+.user-list img {
+  min-width: 30%;
+  min-height: auto;
+}
+
+.user-list div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 30%;
+  margin: 5% 1%;
+}
+
+.user-list span {
+  font-weight: 700;
 }
